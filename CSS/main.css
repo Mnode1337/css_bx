@@ -93,6 +93,10 @@ body {
     color: #fff;
 }
 
+.navbar__down-arrow {
+    font-size: 0.75rem;
+}
+
 .main {
     flex-wrap: wrap;    
     max-width: 1200px;
@@ -122,6 +126,11 @@ body {
     border-radius: 25px;
     width: 100%;
     border: 1px solid #eee;
+}
+
+.post__img:hover {
+    border: none;
+    box-shadow: 4px 4px #333;
 }
 
 .footer {
